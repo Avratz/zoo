@@ -1,0 +1,53 @@
+// colors
+$primary-color-050: #fff3e0;
+$primary-color-100: #ffe0b2;
+$primary-color-200: #ffcc80;
+$primary-color-300: #ffb74d;
+$primary-color-400: #ffa726;
+$primary-color-500: #ff9800;
+$primary-color-600: #fb8c00;
+$primary-color-700: #f57c00;
+$primary-color-800: #ef6c00;
+$primary-color-900: #e65100;
+
+$secondary-color-050: #f1f8e9;
+$secondary-color-100: #dcedc8;
+$secondary-color-200: #c5e1a5;
+$secondary-color-300: #aed581;
+$secondary-color-400: #9ccc65;
+$secondary-color-500: #8bc34a;
+$secondary-color-600: #7cb342;
+$secondary-color-700: #689f38;
+$secondary-color-800: #558b2f;
+$secondary-color-900: #33691e;
+
+$white: #fff;
+$fake-white: #fafafa;
+$gray: #CCC;
+$light-gray: rgba(0, 0, 0, 0.1);
+$almost-transparent: rgba(0, 0, 0, 0.05);
+
+// fonts
+$primary-font: 'Varela Round', sans-serif;
+
+// radius
+$rounded-none: 0px;
+$rounded-sm: 0.125rem;
+$rounded: 0.25rem;
+$rounded-md: 0.375rem;
+$rounded-lg: 0.5rem;
+$rounded-xl: 0.75rem;
+$rounded-2xl: 1rem;
+$rounded-3xl: 1.5rem;
+
+// shadow
+$shadow-sm:	0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+$shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+$shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+$shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+$shadow-none: 0 0 #0000;
+
+

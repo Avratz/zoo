@@ -1,0 +1,40 @@
+body{
+  background-color: $primary-color-050;
+  font-family: $primary-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+section{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-direction: column;
+  @include flex-center-center();
+  min-height: 70vh;
+}
+
+header{
+  text-align: center;
+  @include flex-center-center();
+  h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: $secondary-color-500;
+    padding: 1.1rem;
+    @include breakpoint-tablet{
+      font-size: 3rem;
+    }
+  }
+}
+
+footer{
+  width: 100%;
+  background-image: url('../../assets/images/grass.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  height: 15vh;
+  display: flex;
+  margin-top: auto;
+}

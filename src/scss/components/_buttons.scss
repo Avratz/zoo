@@ -1,0 +1,25 @@
+.btn {
+  min-width: 240px;
+  min-height: 44px;
+  border-radius: $rounded-xl;
+  box-shadow: $shadow-lg;
+  cursor: pointer;
+  &:hover{
+    box-shadow: $shadow-md;
+  }
+  &:active{
+    box-shadow: $shadow-sm;
+  }
+}
+
+.btn__secondary{
+  @extend .btn;
+  border: 1px solid $secondary-color-500;
+  background-color: $secondary-color-400;
+  &:hover{
+    background-color: $secondary-color-500;
+  }
+  &:active{
+    background-color: $secondary-color-600;
+  }
+}

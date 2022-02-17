@@ -1,0 +1,12 @@
+#Zoo {
+  justify-content: space-evenly;
+}
+
+.zoo__content{
+  @include flex-center-center();
+  align-items: flex-end;
+  flex-wrap: wrap;
+  .card{
+    max-width: 125px;
+  }
+}

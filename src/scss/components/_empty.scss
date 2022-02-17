@@ -1,0 +1,17 @@
+.empty {
+  margin: 2rem 0;
+}
+
+.empty__header{
+  @include text-('3xl');
+  font-weight: 700;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.empty__picture {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
